@@ -1,0 +1,20 @@
+{
+  "name": "cache-proxy",
+  "version": "1.0.0",
+  "description":
+    "cache-proxy is a small Node package providing a simple way to put in local storage results of function calls, so next calls won't call the original function.",
+  "main": "dist/cache.js",
+  "scripts": {
+    "build": "mkdir -p dist && babel src/cache.js --out-file dist/cache.js",
+    "test": "jest",
+    "prepublish": "npm run build"
+  },
+  "keywords": [],
+  "author": "Sébastien Castiel",
+  "license": "GPL-v3.0",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^21.2.1"
+  }
+}
