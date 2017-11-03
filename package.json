@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description":
     "cache-proxy is a small Node package providing a simple way to put in local storage results of function calls, so next calls won't call the original function.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scastiel/cache-proxy.git"
+  },
   "main": "dist/cache.js",
   "scripts": {
     "build": "mkdir -p dist && babel src/cache.js --out-file dist/cache.js",
