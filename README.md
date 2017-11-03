@@ -2,6 +2,8 @@
 
 *cache-proxy* is a small Node package providing a simple way to put in local storage results of function calls, so next calls won't call the original function. This can be useful to minimize a number of Ajax requests for instance.
 
+[![Build Status](https://travis-ci.org/scastiel/cache-proxy.svg?branch=master)](https://travis-ci.org/scastiel/cache-proxy)
+
 ## Installation
 
 ```
